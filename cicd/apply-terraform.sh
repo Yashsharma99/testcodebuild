@@ -7,7 +7,7 @@ set -eu
 cd .. 
 
 # initialize terraforms
-#terraform init
+ terraform init
 
 # plan terraform
 #terraform plan
