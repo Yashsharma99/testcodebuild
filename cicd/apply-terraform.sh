@@ -6,7 +6,7 @@ set -eu
 # go back to the previous directory
 cd .. 
 
-# initialize terraform
+# initialize terraforms
 terraform init
 
 # plan terraform
