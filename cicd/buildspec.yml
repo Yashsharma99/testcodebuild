@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+
+  pre_build:
+    commands:
+      - cd cicd # change directory
+      - chmod +x install-terraform.sh  apply-terraform.sh # make files executable
+      - ./install-terraform.sh # install terraform
+
+  build:
+    commands:
+      - ./apply-terraform.sh
