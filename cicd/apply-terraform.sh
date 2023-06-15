@@ -7,12 +7,12 @@ set -eu
 cd .. 
 
 # initialize terraforms
-terraform init
+#terraform init
 
 # plan terraform
-terraform plan
+#terraform plan
 # # apply terraform
-terraform apply -auto-approve
+terraform destroy -auto-approve
 
 # destroy terraform
 # terraform destroy -auto-approve
