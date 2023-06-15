@@ -12,7 +12,7 @@ cd ..
 # plan terraform
 #terraform plan
 # # apply terraform
-terraform apply -auto-approve -lock=false
+terraform  destory -auto-approve -lock=false
 
 # destroy terraform
 # terraform destroy -auto-approve
