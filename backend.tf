@@ -16,6 +16,6 @@ terraform {
     bucket = "testcodebuildbucket12"
     dynamodb_table = "terraform-state-lock-dynamo"
     key    = "state_files/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
